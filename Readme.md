@@ -36,6 +36,17 @@ Schedule: <https://2022.pycascades.com/program/schedule/>
 > required a massive amount of volunteers, resources, and an incredibly
 > hard-working Django app.
 
+Link to blog post about talk, slides, etc:
+<https://www.thursdaybram.com/talk-supporting-the-george-floyd-protests-in-portland-demonstrations-legal-support-and-django-apps>
+
+Challenges of supporting legal funding for protestors.
+
+Scraping data from public judicial systems.
+
+Misreporting of race on arrest reports by Police.
+
+Use of Django to build app to manage this data & how successful it was.
+
 ---
 
 ## Python’s tale of concurrency
@@ -53,6 +64,20 @@ Schedule: <https://2022.pycascades.com/program/schedule/>
 
 ---
 
+## AMA with Brett Cannon
+
+In the MS booth, overlapped with the concurrency talk so bounced between the two.
+
+<https://repl.ethanhs.me/> - Python 3.11alpha running via WASM in a browser.
+
+---
+
+## Intellicode Demo
+
+Extension: Visual Studio code intellicode API examples
+
+---
+
 ## Building Elegant API Contracts: From Zero to Hero
 
 <https://pretalx.com/pycascades-2022/talk/ESCJLQ/>
@@ -61,6 +86,16 @@ Schedule: <https://2022.pycascades.com/program/schedule/>
 >using Open API and RAML specs to create API contracts and achieve a better
 >experience using the API with more reliable unit tests and increased response
 >consistency.
+
+Presenter's Twitter: <https://twitter.com/BishtPradhvan>
+
+Slides <http://bit.ly/3rtM5Gt>
+
+API Contracts:
+
+* <https://apiblueprint.org/>
+* <https://raml.org/>
+* <https://swagger.io/specification/>
 
 ---
 
@@ -76,6 +111,8 @@ Schedule: <https://2022.pycascades.com/program/schedule/>
 > visualizations that aren't part of the typical data science libraries. We'll
 > show some of the features of the MSTICPy CyberTools library that we built to
 > address these gaps.
+
+<https://github.com/microsoft/msticpy>
 
 ---
 
@@ -94,6 +131,27 @@ Schedule: <https://2022.pycascades.com/program/schedule/>
 > User Group long-term. Come laugh and learn as we journey through my meetup
 > misadventures and prepare you for your own.
 
+Fun presentation, lots of good advice around organizing a UG.
+
+* check for existing group, see if you can join
+* throw your UG on a wiki, if your group ends, remove from wiki
+* keep your website in sync (don't let cert/domains expire, etc)
+* reach out to local businesses about hosting meetups
+* for other organizer, find someone reliable, etc, be kind when asking
+* getting people to come: reach out to friends/colleagues, but not spammy
+* check local universities for mailing lists, etc
+* use social media (low cost ad campaigns?)
+* create eye-catching graphics
+* there is an official Python channels of communication (wiki, email lists)
+* get feedback from meeting members & take it seriously
+* inform attendees about meeting structure beforehand (should they bring a
+  computer? is there food? what are they in for?)
+* if presenting, prepare!
+* get the community involved, find others who might be willing to present or do
+  lightning talks
+
+Spokane Python User Group <https://spokanepython.com/>
+
 ---
 
 ## Invisible Walls: Isolating Your Python
@@ -103,6 +161,7 @@ Schedule: <https://2022.pycascades.com/program/schedule/>
 > Stop building projects that only "work on my machine", Learn how to isolate
 > your python application by executing in an isolated, reproducible environment
 > that extends beyond the code you write.
+
 
 ---
 
