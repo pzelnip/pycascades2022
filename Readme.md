@@ -25,6 +25,8 @@ Schedule: <https://2022.pycascades.com/program/schedule/>
 > global community. Through this panel, we would like to address those
 > challenges and understand our community better.
 
+![](pictures/technical_difficulties.png)
+
 ---
 
 ## Supporting the George Floyd Protests in Portland: Demonstrations, Legal Support, and Django Apps
@@ -62,6 +64,8 @@ Use of Django to build app to manage this data & how successful it was.
 > in Python though the major focus would be on the asyncio module, exploring
 > best practises and common pitfalls while using asyncio.
 
+![parallelism is not concurrency](pictures/parallelism_is_not_concurrency.png)
+
 ---
 
 ## AMA with Brett Cannon
@@ -96,6 +100,10 @@ API Contracts:
 * <https://apiblueprint.org/>
 * <https://raml.org/>
 * <https://swagger.io/specification/>
+
+![](pictures/api_elements_principles.png)
+
+![](pictures/api_contracts.png)
 
 ---
 
