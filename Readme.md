@@ -283,6 +283,8 @@ Fascinating idea, not entirely sure how to do in practice.
 
 > Wrapping up an exciting weekend of talks and activities.
 
+Evening Social: <https://spatial.chat/s/pycascades2022>
+
 ---
 
 ## END OF DAY 1
