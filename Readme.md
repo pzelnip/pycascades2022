@@ -170,6 +170,7 @@ Spokane Python User Group <https://spokanepython.com/>
 > your python application by executing in an isolated, reproducible environment
 > that extends beyond the code you write.
 
+Speaker's twitter: <https://twitter.com/ucodery>
 
 ---
 
@@ -181,6 +182,38 @@ Spokane Python User Group <https://spokanepython.com/>
 > barrier? Worry not! Enjoy the world literature in your preferred language
 > along with audio book with just a click of a button. "Literature Love" uses AI
 > services to translate and generate audio format for literature texts
+
+Did not attend, as wasn't interested in the topic.
+
+---
+
+## MS Booth: What's New in VS Code Python?
+
+Luciana Abud demoing some of the new features of Python in VS Code.
+
+Change to how the Python interpreter is selected, no longer is the
+`config:python.pythonPath` setting in settings.json, now is stored in config.
+To reference this in a tasks.json file, use "command:python.interpreterPath".
+
+In settings.json can specify a default interpreter to show in the select
+interpreter list: python.defaultInterpreterPath
+
+Python Environment Manager extension:
+<https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager>
+
+New rename file assistance, on renaming a module gives a refactoring preview of
+propagating that change to other files.
+
+New selection keyboard shortcuts (expanding selections)
+
+Visual Studio Intellicode, integrated into hover tips
+
+Demoing the debugger, remembers last-used config for workspace
+
+Showing integrated test explorer
+
+Python: Report Issue item in the command pallette for filing bugs on the Python
+Extension.
 
 ---
 
@@ -199,6 +232,48 @@ Spokane Python User Group <https://spokanepython.com/>
 > how it applies to test suites. Specific techniques for measuring test quality,
 > using tools such as mutation testing, tracing, and CI systems, will be
 > presented.
+
+Think of test (suites) as classifiers
+
+Input: Code change
+Output: Is the code buggy?
+
+Possible way to show value of test suite
+
+```code
+# rewards not-alarming
+precision = (
+    true_alarms /
+    (true_alarms + false_alarms)
+)
+
+# rewards alarming:
+recall = (
+    true_alarms /
+    (true_alarms + missing_alarms)
+)
+```
+
+Need to balance precision & recall -- F score (harmonic mean).
+
+What if precision & recall shouldn't be evenly weighted -- F beta score.  Beta
+param encodes utility what error hurts harder. Beta 2 == very sensitive to bugs.
+Beta 0.5 == missing alarms are half as painful as false alarms
+
+False Alarms (bring down F score, as it brings down precision):
+
+* flaky test, fails "randomly"
+* implementation test (test implementation details), mock example, unit test
+  fails but code is still good
+* Missing Alarm: Non-covered code, what is not run does not affect result of tests
+* Missing Alarm: Loose/imprecise Assertions (ex: asserting > instead of ==)
+
+Adam's thought: TDD heavily contributes to true alarms: you write a test first,
+see it fail, then see it pass.  By definition that test is a true alarm.
+
+Watch out for Goodhart's law - numbers are extremely gamable.
+
+Fascinating idea, not entirely sure how to do in practice.
 
 ---
 
