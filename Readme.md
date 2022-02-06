@@ -25,7 +25,7 @@ Schedule: <https://2022.pycascades.com/program/schedule/>
 > global community. Through this panel, we would like to address those
 > challenges and understand our community better.
 
-![](pictures/technical_difficulties.png)
+![Technical Difficulties](pictures/technical_difficulties.png)
 
 ---
 
@@ -101,9 +101,9 @@ API Contracts:
 * <https://raml.org/>
 * <https://swagger.io/specification/>
 
-![](pictures/api_elements_principles.png)
+![API Principles](pictures/api_elements_principles.png)
 
-![](pictures/api_contracts.png)
+![API Contracts](pictures/api_contracts.png)
 
 ---
 
@@ -290,3 +290,126 @@ Evening Social: <https://spatial.chat/s/pycascades2022>
 ## END OF DAY 1
 
 ---
+
+## Diversity in Neurodiversity: Help for Underrepresented Folks in Tech and Allies with New Mental Health Diagnoses
+
+<https://pretalx.com/pycascades-2022/talk/3UBEKS/>
+
+> Many people from underrepresented backgrounds are being diagnosed for the
+> first time or getting treatment well into their careers.
+>
+> This talk aims to be a resource for folks learning to work with their
+> neurodiversities and their colleagues.
+
+Four Myths to Dispel:
+
+* Having X Means I Can't Focus
+* Medication turns you into a Zombie
+* Being Neurodiverse Makes Me a Bad Employee
+* My Diagnosis Isn't a Protected Disability
+
+TIRE Technique
+
+* Time
+* Intuition
+* Resources
+* Energy
+
+Priority Matrix
+
+* ~~Do~~
+* Delegate
+* Defer
+* Delete
+
+For Allies:
+
+* Intersectionality is a force multiplier for and against those suffering
+  * do what you can to lighten the load
+* People may not be ready for your help
+  * don't take it personal, prove that you can be trusted
+* Minimization is what got us here
+  * don't minimize their situation, it's not a competition
+* No Two Cases are the Same
+  * Don't assume that's worked for one will work for all
+  * Showcase many different solutions and treat all of them as valid
+
+Instead ask:
+
+* What have you tried that worked in the past
+* If you want to talk about it, aI can make time.  I may not understand9i t all
+  but if you can help me I'll try my best
+* Let me know how I can help you. Even if you just need me to cover for you
+  while you adjust.
+
+The standard comes from leadership
+
+Don't Let Work Take Precedence Over Self Care
+
+Normalize Diversity and Neurodiversity
+
+Empathy training: <https://compassionatecoding.com>
+
+Global Peer Mental Health Network <https://www.gmhpn.org/>
+
+---
+
+## Council Data Project: Infrastructure-as-code for civic transparency and accessibility
+
+<https://pretalx.com/pycascades-2022/talk/7FZC9R/>
+
+> Council Data Project (CDP) is an open source project that provides tools for
+> making city council transcripts, legislation, and voting records searchable
+> through a single website. This is achieved through a Python-powered
+> Infrastructure-as-code architecture. CDP provides an entire backend and
+> frontend that can be easily deployed for a governing body of any size or
+> location. As long as the deployer provides data for events in a pre-defined
+> yet flexible structure, CDP provides a database, file storage, speech-to-text
+> transcription, and natural language search.
+>
+> During this session, we will cover CDP’s backend, primarily focusing on how we
+> created ETL pipelines and an Infrastructure-as-code setup to be as low cost
+> and easily forkable as possible. Because of this, backend-focused developers
+> may get the most out of this talk. Additionally, this session is intended for
+> people of all levels of Python experience. Instead of covering in-depth
+> features or niches of the language itself, we will showcase some neat tools
+> and open-source projects in the Python ecosystem that we use to build our
+> infrastructure!
+>
+> And this session is especially for anyone interested in civic tech or
+> generally just making democracy more transparent!
+
+---
+
+## Security considerations in Python Packaging
+
+<https://pretalx.com/pycascades-2022/talk/HWAFCC/>
+
+> Popular programming language index websites (TIOBE index) and developer
+> surveys (Stack Overflow) place Python as one of the fastest-growing
+> programming languages. However, this popularity also puts in the target range
+> of attackers. The attackers perform malicious dependency attacks and use
+> misconfiguration tools to reveal confidential information. Jukka Ruohonen,
+> Kalle Hjerppe, and Kalle Rindell in their research paper “A Large-Scale
+> Security-Oriented Static Analysis of Python Packages in PyPI” claimed that
+> they scanned PyPI for security issues in Python packages and found the
+> presence of at least one security issue in about 46% of the Python packages.
+> In addition, security vulnerabilities can be present in the source code of the
+> package. In this talk, we will address the security issues related to python
+> packaging and possible solutions to make python packages secure.
+
+Good motivation of the problem, then discussed a few tools (Bandit, Safety) for
+finding security issues.
+
+---
+
+## Programming Your Way up a Skyscraper - Python in the Built World
+
+<https://pretalx.com/pycascades-2022/talk/XFUZCM/>
+
+> When I started working on the latest high rise for San Francisco a challenge
+> stood before me: How am I going to do this without losing my mind? Thankfully
+> Python coding came to the rescue. This talk will showcase all the tools built
+> around Python that can make architecture dreams come true!
+
+Interesting talk about the use of modern OSS tools for building construction.
